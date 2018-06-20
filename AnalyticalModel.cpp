@@ -40,8 +40,8 @@ if (N > 2)
 cout << " | Ответ |" << endl;
 for (int i = 0; i < N; i++)
 {
-	for (int j = 0; j < 4; j++)
-	{
+	for (int j = 0; j < 4; j++)                       //Вывод ответа 
+	{                                                  
 		cout << j <<") :"<<model[i][j] <<" ";
 	}
 	
